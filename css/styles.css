@@ -1,0 +1,29 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .left-container {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 25%;
+    background-color: aquamarine;
+  }
+
+  .right-container {
+    position: absolute;
+    /* top: 50%; */
+    right: 10%;
+    width: 50%;
+    /* height: 50%; */
+    background-color: rebeccapurple;
+  }
+
+  .deep-breath-logo {
+      width: 50%;
+  }
