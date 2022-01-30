@@ -14,37 +14,76 @@
     />
 
     <!--    Custom css files-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
-    <title>SignUp Page</title>
+    <!--    Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Deeper Breath SignUp Page</title>
   </head>
   <body>
-      <div class="container">
-          <div class="left-container">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+    <div class="container">
+      <div class="left-container">
+          <img src="" alt="">
+        <form>
+          <div class="mb-3">
+            <h2>Have an account?</h2>
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
           </div>
-
-
-
-
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">SIGN IN</button>
+        </form>
+        <div id="continue" class="continue-text">
+          Continue with (facebook icon) (google icon)
+        </div>
+        <div id="signup" class="signup-text">or SignUp</div>
       </div>
 
+      <div class="right-container">
+        <img
+        src="https://images.unsplash.com/photo-1603812079202-61a536f87e70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJyZWF0aHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+        alt="deep-breath"
+        class="deep-breath-logo"
+      />
+        <div class="tagline">
+          <h1>Take a deeper breath</h1>
+        </div>
+        <hr />
+        <div class="quote">
+          <p>Inhale the future, exhale the past. – Morris Slattery</p>
+        </div>
 
-
+        <footer class="white-section" id="footer">
+          <i class="social-icon fab fa-twitter"></i>
+          <i class="social-icon fab fa-facebook-f"></i>
+          <i class="social-icon fab fa-instagram"></i>
+          <i class="social-icon fas fa-envelope"></i>
+          <p class="copyright">© 2022 Copyright Deeper Breath</p>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
